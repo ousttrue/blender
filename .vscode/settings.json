@@ -1,0 +1,11 @@
+{
+    "cmake.configureSettings": {
+        "WITH_PYTHON": "ON",
+        "WITH_PYTHON_INSTALL": "ON",
+        "WITH_PYTHON_INSTALL_NUMPY": "OFF",
+        "WITH_AUDASPACE": "OFF",
+        "WITH_OPENCOLLADA": "OFF",
+        "CMAKE_MAKE_PROGRAM": "${env:VCPKG_DIR}/downloads/tools/ninja/1.10.0-windows/ninja.exe"
+    },
+    "cmake.generator": "Ninja",
+}
